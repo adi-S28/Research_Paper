@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{CETSS operational metrics (mean over 10 seeds, $\alpha=3.0$). BPS-frac = fraction of tasks placed in already-paid billing windows. $U(v)$ = mean billed utilization (Eq.~23). DL-rate = deadline feasibility rate.}
+\label{tab:ops}
+\begin{tabular}{llccccc}
+\toprule
+Workflow & $\Delta$ (s) & \#VMs (C/H) & Makespan (s) & BPS-frac & $U(v)$ & DL-rate \\
+\midrule
+CyberShake & 3600 & 48/46 & 2549 & 0.05 & 0.33 & 0.60 \\
+CyberShake & 300 & 48/46 & 2549 & 0.02 & 0.89 & 0.60 \\
+CyberShake & 60 & 48/46 & 2549 & 0.00 & 0.98 & 0.60 \\
+\midrule
+Epigenomics & 3600 & 25/23 & 1948 & 0.50 & 0.26 & 1.00 \\
+Epigenomics & 300 & 25/23 & 2205 & 0.04 & 0.97 & 1.00 \\
+Epigenomics & 60 & 25/23 & 2215 & 0.02 & 1.08 & 1.00 \\
+\midrule
+LIGO & 3600 & 29/24 & 3975 & 0.39 & 0.36 & 0.00 \\
+LIGO & 300 & 29/24 & 4015 & 0.01 & 0.88 & 0.00 \\
+LIGO & 60 & 29/24 & 3975 & 0.00 & 0.99 & 0.00 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table}

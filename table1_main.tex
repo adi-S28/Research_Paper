@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Mean total scheduling cost (\$) $\pm$ std (10 seeds, $\alpha=3.0$, $\gamma=0.5$, $\mu=1.0$). Wilcoxon signed-rank test: one-sided (CETSS $<$ HEFT). $r$ = rank-biserial effect size.}
+\label{tab:main_results}
+\begin{tabular}{llcccccc}
+\toprule
+Workflow & $\Delta$ (s) & HEFT & Min-Min & BPS-only & \textbf{CETSS} & $p$ & $r$ \\
+\midrule
+CyberShake & 3600 & 22.08$\pm$0.00 & 22.08$\pm$0.00 & 10.15$\pm$4.70 & \textbf{9.03}$\pm$5.29 & <0.001 & 1.00 \\
+CyberShake & 300 & 33.74$\pm$1.40 & 34.99$\pm$1.25 & 29.73$\pm$4.72 & \textbf{28.69}$\pm$5.23 & 0.007 & 0.93 \\
+CyberShake & 60 & 126.05$\pm$4.55 & 131.33$\pm$4.44 & 121.95$\pm$5.62 & \textbf{120.04}$\pm$6.40 & 0.007 & 0.93 \\
+\midrule
+Epigenomics & 3600 & 11.04$\pm$0.00 & 12.86$\pm$0.38 & 6.35$\pm$0.00 & \textbf{6.35}$\pm$0.00 & <0.001 & 1.00 \\
+Epigenomics & 300 & 24.43$\pm$0.66 & 26.74$\pm$0.46 & 20.18$\pm$0.70 & \textbf{20.18}$\pm$0.70 & <0.001 & 1.00 \\
+Epigenomics & 60 & 101.66$\pm$2.87 & 109.25$\pm$3.26 & 89.98$\pm$5.53 & \textbf{89.98}$\pm$5.53 & <0.001 & 1.00 \\
+\midrule
+LIGO & 3600 & 11.52$\pm$0.00 & 11.52$\pm$0.00 & 11.60$\pm$1.71 & \textbf{10.50}$\pm$1.74 & 0.065 & 0.78 \\
+LIGO & 300 & 21.22$\pm$1.03 & 22.90$\pm$1.63 & 24.19$\pm$1.89 & \textbf{23.62}$\pm$2.03 & 1.000 & 0.00 \\
+LIGO & 60 & 84.10$\pm$3.72 & 91.25$\pm$4.49 & 82.84$\pm$3.77 & \textbf{81.20}$\pm$3.96 & 0.007 & 0.93 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table}
